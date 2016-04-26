@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
-    color: #bfbaba;
+    color: #dad7d7;
 }
 
 .text-vertical-center h3 {
@@ -161,7 +161,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/tennessee.jpg) no-repeat center center scroll;
+    background: url(../img/wyoming.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -241,5 +241,60 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+} 
+
+
+
+
+/* CSS from grayscale */
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #bfbaba;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #bfbaba;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
 }
+
+.btn-circle:hover {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle:focus {
+    color: #bfbaba;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #bfbaba;
+    color: #bfbaba;
+    background-color: transparent;
+}
+
+.btn-default:hover {
+    border: 1px solid #bfbaba;
+    outline: 0;
+    color: #fff;
+    background-color: #bfbaba;
+}
+
